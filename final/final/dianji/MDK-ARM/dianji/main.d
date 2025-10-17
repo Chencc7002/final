@@ -6,14 +6,8 @@ dianji/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h \
   ..\Drivers\CMSIS\Include\core_cm4.h \
-  D:\Keil\ARM\ARMCLANG\include\stdint.h \
-  D:\DB\final\final\dianji\Drivers\CMSIS\Include\cmsis_version.h \
-  D:\DB\final\final\dianji\Drivers\CMSIS\Include\cmsis_compiler.h \
-  D:\DB\final\final\dianji\Drivers\CMSIS\Include\cmsis_armclang.h \
-  D:\DB\final\final\dianji\Drivers\CMSIS\Include\mpu_armv7.h \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
-  D:\Keil\ARM\ARMCLANG\include\stddef.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h \
@@ -36,7 +30,5 @@ dianji/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h \
   ..\Core\Inc\adc.h ..\Core\Inc\dma.h ..\Core\Inc\i2c.h \
   ..\Core\Inc\tim.h ..\Core\Inc\usart.h ..\Core\Inc\gpio.h \
-  D:\Keil\ARM\ARMCLANG\include\string.h \
-  D:\Keil\ARM\ARMCLANG\include\stdio.h \
-  D:\Keil\ARM\ARMCLANG\include\math.h \
-  D:\Keil\ARM\ARMCLANG\include\stdbool.h
+  ..\Core\Inc\motor\motor_control.h ..\Core\Inc\rplidar.h \
+  ..\Core\Inc\mpu6500.h ..\Core\Inc\bluetooth.h
